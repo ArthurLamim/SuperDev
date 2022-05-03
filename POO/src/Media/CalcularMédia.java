@@ -2,7 +2,7 @@ package Media;
 
 import java.util.Scanner;
 
-public class CalcularMédia {
+public class CalcularMÃ©dia {
 	Scanner scan = new Scanner(System.in);
 	public double n1;
 	public double n2;
@@ -36,9 +36,9 @@ public class CalcularMédia {
 //		
 //	}
 //	
-//	public void aprovaçao() {
+//	public void aprovaÃ§ao() {
 //		   if (media==10) {
-//       		System.out.println("Aluno aprovado com distinção");
+//       		System.out.println("Aluno aprovado com distinÃ§Ã£o");
 //       }else if (media >=7 && media <10) {
 //       	System.out.println("Aluno aprovado");     	
 //       }else (media<7) {
@@ -55,8 +55,15 @@ public class CalcularMédia {
 	
 	public void calcularMedia() {
 		for (int i = 0; i < notas.length; i++) {
-			System.out.println("Nota: "+notas[i++]);
+			System.out.println("Nota: "+notas(i++)+": "+notas[i]);
 			
 		}
 	}
+	public void mostrarNotas() {
+		for (int i = 0; i < notas.length; i++)
+			system.out
+	}
+	public void mostrarMedia() {
+		system.out.println("Media Final: "+media);
+	}	
 }
